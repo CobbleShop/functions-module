@@ -49,7 +49,7 @@ greet("you")
 
 ```
 function logarray(&array[])
-	foreach(#arr[],&content,#index)
+	foreach(&array[],&content,#index)
 		log(%#index% => %&content%)
 	next
 endfunction
